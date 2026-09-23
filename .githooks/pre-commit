@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# git pre-commit —— 由 core.hooksPath 指向本目录,任何提交路径都会触发
+# 委托给共享的判定脚本(git 模式):命中密钥才拦。
+node "$(cd "$(dirname "$0")" && pwd)/../.claude/hooks/secret-scan.mjs"

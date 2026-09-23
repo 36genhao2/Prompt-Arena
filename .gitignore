@@ -1,0 +1,19 @@
+# env & secrets
+.env
+*.local
+.venv/
+venv/
+
+# python / tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# os / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# arena runtime state (判词锁 verdict json, not artifacts)
+arena/verdicts/*.verdict.json
