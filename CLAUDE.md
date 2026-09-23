@@ -26,7 +26,7 @@
 
 - 赛制：`arena/gate.md`（反方质询 → 裁决 → 换岗 → 判词锁干活）
 - 引擎（单 agent 换皮）：`arena/engine.md`
-- 三张皮（控制平面）：`arena/readmes/{ai,human,judge}.md`
+- 皮与命令书：`arena/readmes/{ai,judge}.md`（AI 皮、裁判皮）+ `human.md`（人类命令书，engine 不代打）
 - 败方令 · 累计库：`arena/decrees/`
 - 攻击库：`arena/attacks/`
 - 判词锁 hook：`.claude/hooks/verdict-lock.mjs`；配置：`arena/config.json`

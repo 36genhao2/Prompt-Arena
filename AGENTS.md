@@ -1,7 +1,7 @@
 # Agent 指令（Prompt Arena）
 
 对读取本文件的任何 agent 生效（Claude Code / Codex / Gemini CLI / Copilot / Cursor …）。
-完整赛制见 `arena/gate.md` 与三张皮（`arena/readmes/{ai,human,judge}.md`）；本文件只放跨 agent 的硬规则，不重复全文。
+完整赛制见 `arena/gate.md` 与两张皮 + 一份命令书（`arena/readmes/{ai,judge}.md` 是皮，`human.md` 是命令书、engine 不代打）；本文件只放跨 agent 的硬规则，不重复全文。
 
 本工作区把「给 AI 的提示词」当人机对抗来审：任务许愿先过门控，判赢才许动真工程。Claude Code 的判词锁是 hook 硬拦（`arena/gate.md` 判词锁）；没有 hook 的 agent 按第 3 条**自觉执行**同一规则。
 
